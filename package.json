@@ -1,0 +1,33 @@
+{
+    "name": "servidor",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "devStart": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "datatables-bootstrap": "^0.0.1",
+        "datatables.net": "^1.11.4",
+        "excel4node": "^1.7.2",
+        "express": "^4.17.1",
+        "ipp": "^2.0.1",
+        "ipp-printer": "^1.0.0",
+        "jquery": "^3.6.0",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.3",
+        "nodemailer": "^6.8.0",
+        "nodemon": "^2.0.15",
+        "path": "^0.12.7",
+        "pdfkit": "^0.13.0",
+        "pdfkit-table": "^0.1.99",
+        "postcss-fontpath": "^1.0.0",
+        "react-calendar-heatmap": "^1.8.1"
+    }
+}
